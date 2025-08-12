@@ -4,9 +4,14 @@ Scripting
 Back-end
 API
  Weight: 1
- Project will start Jun 4, 2024 5:00 AM, must end by Jun 5, 2024 5:00 AM
- Checker was released at Jun 4, 2024 11:00 AM
+ Project over - took place from Aug 13, 2024 5:00 AM to Aug 14, 2024 5:00 AM
  An auto review will be launched at the deadline
+In a nutshell…
+Auto QA review: 4.0/17 mandatory & 7.0/7 optional
+Altogether:  47.06%
+Mandatory: 23.53%
+Optional: 100.0%
+Calculation:  23.53% + (23.53% * 100.0%)  == 47.06%
 
 
 Background Context
@@ -49,6 +54,7 @@ You must use the Requests module for sending HTTP requests to the Reddit API
 Tasks
 0. How many subs?
 mandatory
+Score: 20.0% (Checks completed: 20.0%)
 Write a function that queries the Reddit API and returns the number of subscribers (not active users, total subscribers) for a given subreddit. If an invalid subreddit is given, the function should return 0.
 
 Hint: No authentication is necessary for most features of the Reddit API. If you’re getting errors related to Too Many Requests, ensure you’re setting a custom User-Agent.
@@ -80,9 +86,10 @@ Repo:
 GitHub repository: alx-system_engineering-devops
 Directory: 0x16-api_advanced
 File: 0-subs.py
- 
+  
 1. Top Ten
 mandatory
+Score: 33.33% (Checks completed: 33.33%)
 Write a function that queries the Reddit API and prints the titles of the first 10 hot posts listed for a given subreddit.
 
 Requirements:
@@ -122,9 +129,10 @@ Repo:
 GitHub repository: alx-system_engineering-devops
 Directory: 0x16-api_advanced
 File: 1-top_ten.py
- 
+  
 2. Recurse it!
 mandatory
+Score: 16.67% (Checks completed: 16.67%)
 Write a recursive function that queries the Reddit API and returns a list containing the titles of all hot articles for a given subreddit. If no results are found for the given subreddit, the function should return None.
 
 Hint: The Reddit API uses pagination for separating pages of responses.
@@ -163,9 +171,10 @@ Repo:
 GitHub repository: alx-system_engineering-devops
 Directory: 0x16-api_advanced
 File: 2-recurse.py
- 
+  
 3. Count it!
 #advanced
+Score: 100.0% (Checks completed: 100.0%)
 Write a recursive function that queries the Reddit API, parses the title of all hot articles, and prints a sorted count of given keywords (case-insensitive, delimited by spaces. Javascript should count as javascript, but java should not).
 
 Requirements:
